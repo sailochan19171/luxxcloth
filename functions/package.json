@@ -1,0 +1,25 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/src/index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^13.4.0",
+    "firebase-functions": "^6.3.2"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "firebase-functions-test": "^3.4.1",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0"
+  }
+}
