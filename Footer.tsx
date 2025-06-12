@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Instagram, Twitter, Facebook, Mail, Phone, MapPin } from 'lucide-react';
+import OrderTrackingModal from './OrderTrackingModal'; // Assuming OrderTrackingModal.tsx is in the same directory
 
 const Footer: React.FC = () => {
+  const [isTrackingModalOpen, setIsTrackingModalOpen] = useState(false);
   const currentYear = new Date().getFullYear();
 
   const scrollToSection = (href: string) => {
@@ -106,9 +108,12 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors text-sm">
+                <button
+                  onClick={() => setIsTrackingModalOpen(true)}
+                  className="text-gray-300 hover:text-amber-400 transition-colors text-sm text-left w-full"
+                >
                   Track Your Order
-                </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -147,6 +152,11 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <OrderTrackingModal
+        isOpen={isTrackingModalOpen}
+        onClose={() => setIsTrackingModalOpen(false)}
+      />
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-800">

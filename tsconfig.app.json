@@ -9,6 +9,7 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "esModuleInterop": true, // Added this line
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
