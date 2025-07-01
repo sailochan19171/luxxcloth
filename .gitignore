@@ -25,13 +25,3 @@ build/
 *.njsproj
 *.sln
 *.sw?
-
-# Invalid or temporary files
-(prev
-clearInterval(interval)
-document.removeEventListener('mousedown'
-p.price)))
-priceRange[0]
-product.category)))
-unsubscribe()
-{
