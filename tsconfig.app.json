@@ -9,7 +9,10 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+<<<<<<< HEAD
     "esModuleInterop": true, // Added this line
+=======
+>>>>>>> 079c4ae (recent changes)
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
@@ -21,5 +24,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+<<<<<<< HEAD
   "include": ["src"]
+=======
+  "include": ["src", "functions"]
+>>>>>>> 079c4ae (recent changes)
 }

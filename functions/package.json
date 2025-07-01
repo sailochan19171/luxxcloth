@@ -1,5 +1,6 @@
 {
   "name": "functions",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "",
   "main": "lib/src/index.js",
@@ -12,14 +13,34 @@
   "dependencies": {
     "firebase-admin": "^13.4.0",
     "firebase-functions": "^6.3.2"
+=======
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+>>>>>>> 079c4ae (recent changes)
   },
   "engines": {
     "node": "18"
   },
+<<<<<<< HEAD
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "firebase-functions-test": "^3.4.1",
     "jest": "^30.0.0",
     "ts-jest": "^29.4.0"
   }
+=======
+  "main": "index.js",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+>>>>>>> 079c4ae (recent changes)
 }

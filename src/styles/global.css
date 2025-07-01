@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #d97706;
+  --color-secondary: #111827;
+  --color-accent: #f5f5f4;
+  --color-background: #ffffff;
+  --color-text: #111827;
+  --color-surface: #ffffff;
+}
+
+/* Theme-aware utility classes */
+.bg-theme-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-theme-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-theme-accent {
+  background-color: var(--color-accent);
+}
+
+.text-theme-primary {
+  color: var(--color-primary);
+}
+
+.text-theme-secondary {
+  color: var(--color-secondary);
+}
+
+.border-theme-primary {
+  border-color: var(--color-primary);
+}

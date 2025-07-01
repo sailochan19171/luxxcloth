@@ -11,6 +11,29 @@
         "source": "**",
         "destination": "/index.html"
       }
+<<<<<<< HEAD
+=======
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(js|mjs)",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/javascript"
+          }
+        ]
+      },
+      {
+        "source": "**/*.css",
+        "headers": [
+          {
+            "key": "Content-Type", 
+            "value": "text/css"
+          }
+        ]
+      }
+>>>>>>> 079c4ae (recent changes)
     ]
   },
   "functions": {
