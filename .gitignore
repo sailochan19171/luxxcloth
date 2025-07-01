@@ -7,13 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies and build outputs
 node_modules/
 .firebase/
 functions/node_modules/
 dist/
 build/
 .env
-*.log
 
 # Editor directories and files
 .vscode/*
@@ -25,5 +25,13 @@ build/
 *.njsproj
 *.sln
 *.sw?
-.env
-"(prev\nclearInterval(interval)\ndocument.removeEventListener('mousedown'\np.price)))\npriceRange[0]\nproduct.category)))]\nunsubscribe()\n{" 
+
+# Invalid or temporary files
+(prev
+clearInterval(interval)
+document.removeEventListener('mousedown'
+p.price)))
+priceRange[0]
+product.category)))
+unsubscribe()
+{
